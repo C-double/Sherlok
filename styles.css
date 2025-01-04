@@ -1,9 +1,13 @@
 /* Общие стили для мобильных устройств */
 body {
-    font-family: Arial, sans-serif;
+      font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-image: url('sherlock-background.jpg'); /* Путь к изображению */
+    background-size: cover; /* Масштабирование изображения, чтобы покрыть весь экран */
+    background-repeat: no-repeat; /* Изображение не повторяется */
+    background-attachment: fixed; /* Фиксированный фон при прокрутке */
+    background-position: center; /* Центровка фона */
 }
 
 .container {
