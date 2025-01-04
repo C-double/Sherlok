@@ -10,7 +10,15 @@ body {
     padding: 20px;
 }
 
-.h1_boom{color:red;}
+.h1_boom {
+    color: #ad3b3b;
+}
+
+.instructions-text01{font-size: 1.5em;}
+
+.help_text {
+    color: #ad3b3b;
+}
 
 /* Заголовки */
 .title {
@@ -44,11 +52,14 @@ body {
 
 /* Коричневый блок вопроса */
 .question {
-    background-color: #b57f5a;
-    padding: 15px;
+    background-image: url('/paper.svg'); /* Задаём фоновое изображение */
+    background-repeat: repeat-y; /* Дублирование по оси Y */
+    background-size: 100% auto; /* Изображение по ширине экрана, высота подстраивается автоматически */
+    background-position: top left; /* Выравнивание в верхнем левом углу */
+    padding: 15px 15px 15px 10vw;
     border-radius: 8px;
     margin-bottom: 20px;
-    color: #fff;
+    color: #000000;
 }
 
 /* Варианты ответов */
@@ -57,10 +68,11 @@ body {
 }
 
 .answer-container {
-    margin-bottom: 15px;
     display: flex;
-    align-items: flex-start;
-    gap: 10px;
+    align-items: center; /* Выравнивание чекбокса и текста по вертикали */
+    gap: 10px; /* Расстояние между чекбоксом и текстом вопроса */
+    margin-bottom: 15px;
+    flex-wrap: wrap; 
 }
 
 /* Чекбоксы */
@@ -68,13 +80,13 @@ body {
     width: 20px;
     height: 20px;
     cursor: pointer;
-    accent-color: #b57f5a; /* Стилизация галочки */
+    accent-color: #b57f5a; /* Цвет галочки */
 }
 
 /* Лейблы для ответов */
 .answer-label {
     flex: 1; /* Занимает оставшуюся ширину */
-    padding: 10px;
+    padding: 4px 10px 10px 0px;
     border: 2px solid transparent;
     background-color: transparent;
     color: #4a2c2a;
@@ -91,7 +103,7 @@ body {
 
 /* Ответ с прозрачным фоном и красной границей */
 .answer-result {
-    display: none;
+    display: none; /* Скрыт по умолчанию */
     margin-top: 5px;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.5);
@@ -100,6 +112,7 @@ body {
     color: #4a2c2a;
     font-size: 0.9em;
     line-height: 1.5;
+    flex-basis: 100%; /* Заставляет ответ занимать всю ширину */
 }
 
 /* Отображаем ответ, если чекбокс выбран */
