@@ -19,6 +19,11 @@ body {
     font-weight: bold; /* Жирное начертание */
     text-align: center; /* Выравнивание по центру */
 }
+.convert{
+    font-size: 1.2em; /* Размер шрифта */
+    font-weight: bold;
+    color: #ad3b3b;
+}
 
 .help_text {
     color: #ad3b3b;
