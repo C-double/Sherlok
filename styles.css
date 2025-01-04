@@ -14,7 +14,11 @@ body {
     color: #ad3b3b;
 }
 
-.instructions-text01{font-size: 1.5em;}
+.instructions-text01{
+    font-size: 1.5em; /* Размер шрифта */
+    font-weight: bold; /* Жирное начертание */
+    text-align: center; /* Выравнивание по центру */
+}
 
 .help_text {
     color: #ad3b3b;
@@ -29,7 +33,7 @@ body {
 
 .subtitle {
     font-size: 1.2em;
-    color: #7e4c3f;
+    color: #ad3b3b;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -86,7 +90,7 @@ body {
 /* Лейблы для ответов */
 .answer-label {
     flex: 1; /* Занимает оставшуюся ширину */
-    padding: 4px 10px 10px 0px;
+    padding: 10px 10px 10px 0px;
     border: 2px solid transparent;
     background-color: transparent;
     color: #4a2c2a;
@@ -97,8 +101,7 @@ body {
 }
 
 .answer-label:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-    border-color: #b57f5a;
+    
 }
 
 /* Ответ с прозрачным фоном и красной границей */
