@@ -137,10 +137,9 @@ body {
     display: block;
 }
 
-/* Для правильных чекбоксов */
-.correct-answer .answer-input:checked + .answer-label {
-    border-color: green; /* Зелёная обводка вопроса */
-    color: green; /* Зелёный текст вопроса */
+/* Для правильных чекбоксов (зелёный цвет при выборе) */
+.correct-answer .answer-input {
+    accent-color: green; /* Зелёный цвет для правильного ответа */
 }
 
 /* Подвал */
