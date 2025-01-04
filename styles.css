@@ -125,9 +125,22 @@ body {
     flex-basis: 100%; /* Заставляет ответ занимать всю ширину */
 }
 
+
+/* Правильные ответы (зелёная граница и текст) */
+.correct-answer .answer-result {
+    border: 2px solid green; /* Зелёная граница */
+    color: green; /* Зелёный текст */
+}
+
 /* Отображаем ответ, если чекбокс выбран */
 .answer-input:checked + .answer-label + .answer-result {
     display: block;
+}
+
+/* Для правильных чекбоксов */
+.correct-answer .answer-input:checked + .answer-label {
+    border-color: green; /* Зелёная обводка вопроса */
+    color: green; /* Зелёный текст вопроса */
 }
 
 /* Подвал */
