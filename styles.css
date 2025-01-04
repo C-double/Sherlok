@@ -52,7 +52,7 @@ body {
 
 /* Коричневый блок вопроса */
 .question {
-    background-image: url('/paper.svg'); /* Задаём фоновое изображение */
+    background-image: url('paper.svg'); /* Задаём фоновое изображение */
     background-repeat: repeat-y; /* Дублирование по оси Y */
     background-size: 100% auto; /* Изображение по ширине экрана, высота подстраивается автоматически */
     background-position: top left; /* Выравнивание в верхнем левом углу */
