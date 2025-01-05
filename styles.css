@@ -186,7 +186,7 @@ margin-bottom: 10px;
     -moz-appearance: none; /* Для Firefox */
     width: 25px;
     height: 25px;
-    border: 2px solid #DEA215;
+    border: 5px solid #DEA215;
     border-radius: 50%;
     background-color: #DEA215;
     cursor: pointer;
@@ -195,22 +195,10 @@ margin-bottom: 10px;
 
 /* Точка внутри чекбокса при выборе */
 .answer-input:checked {
-    background-color: #DEA215; /* Заполнение жёлтым цветом */
+    background-color: #000000; /* Заполнение жёлтым цветом */
     border-color: #DEA215; /* Граница совпадает с цветом фона */
 }
 
-.answer-input:checked::after {
-    content: ""; /* Добавляем точку */
-    display: block;
-    width: 10px; /* Размер точки */
-    height: 10px;
-    background-color: white; /* Цвет точки */
-    border-radius: 50%; /* Круглая точка */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 
 /* Правильные ответы (зелёная граница и текст) */
