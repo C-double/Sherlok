@@ -9,7 +9,9 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
-
+.s-img{
+width:30%;
+}
 .container {
     padding: 20px;
 }
