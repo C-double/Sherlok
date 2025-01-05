@@ -13,11 +13,18 @@ body {
 width:30%;
 float: right;
 margin-left: 70%;
+margin-bottom: 10px;
 }
 
 .subtitle1{
     color:#ffffff;
     text-align: right;
+}
+
+.subtitle2{
+    color:#ffffff;
+    text-align: right;
+    font-family: "COMIC SANS MS";
 }
 
 .container {
