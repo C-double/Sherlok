@@ -21,13 +21,14 @@ margin-bottom: 10px;
     color:#ffffff;
     text-align: right;
     font-weight: 500;
+    font-size: 5vw;
 }
 
 .subtitle2{
     color:#ffffff;
     text-align: right;
     font-family: "COMIC SANS MS";
-    font-size: 1.6em;
+    font-size: 1.4em;
     font-weight: 200;
     padding-bottom: 20px;
 }
@@ -41,7 +42,7 @@ margin-bottom: 10px;
 }
 
 .instructions-text01{
-    font-size: 1.8em;
+    font-size: 5vw;
     font-weight: 600;
     text-align: center;
     color: #ffffff;
@@ -61,7 +62,7 @@ margin-bottom: 10px;
 
 /* Заголовки */
 .title {
-    font-size: 6vw;
+    font-size: 5vw;
     color: #ffffff;
     text-align: left;
     font-family: 'Roboto Serif', serif;
@@ -76,7 +77,7 @@ margin-bottom: 10px;
 
 /* Инструкции */
 .instructions-text1 {
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: #ffffff;
     margin-bottom: 15px;
     line-height: 1.5;
@@ -86,7 +87,7 @@ margin-bottom: 10px;
 
 
 .instructions-text2 {
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: #ffffff;
     margin-bottom: 15px;
     line-height: 1.5;
@@ -98,7 +99,7 @@ margin-bottom: 10px;
 
 /* Вопросы */
 .questions-text {
-    font-size: 1.5em;
+    font-size: 3.5vw;
     color: #ffffff;
     margin-bottom: 10px;
     font-weight: 300;
@@ -117,7 +118,7 @@ margin-bottom: 10px;
     background-color: #ffffff;
     padding: 15px 3vw 15px 3vw;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 4vw;
     font-family: 'Roboto Serif', serif;
     line-height: 1.5em;
     text-shadow: 0px 0px 0px #00000000;
@@ -158,7 +159,7 @@ margin-bottom: 10px;
     color: #ffffff;
     font-family: 'Roboto Serif', serif;
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1.1em;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -229,6 +230,7 @@ margin-bottom: 10px;
 /* Отображаем ответ, если чекбокс выбран */
 .answer-input:checked + .answer-label + .answer-result {
     display: block;
+    font-size: 1.1em;
 }
 
 /* Для правильных чекбоксов (зелёный цвет при выборе)
@@ -248,10 +250,9 @@ margin-bottom: 10px;
 .footer p {
     /* margin-top: 30px; */
     text-align: left;
-    font-size: 1em;
     color: #ffffff;
     line-height: 1.5;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 300;
     text-align: center;
 }
