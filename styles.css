@@ -184,19 +184,19 @@ margin-bottom: 10px;
     appearance: none; /* Отключает стандартный вид чекбокса */
     -webkit-appearance: none; /* Для Safari */
     -moz-appearance: none; /* Для Firefox */
-    width: 20px; /* Размер чекбокса */
-    height: 20px;
-    border: 2px solid yellow; /* Жёлтая обводка */
-    border-radius: 50%; /* Делает чекбокс круглым */
-    background-color: white; /* Фон чекбокса */
+    width: 25px;
+    height: 25px;
+    border: 2px solid #DEA215;
+    border-radius: 50%;
+    background-color: #DEA215;
     cursor: pointer;
     position: relative;
 }
 
 /* Точка внутри чекбокса при выборе */
 .answer-input:checked {
-    background-color: yellow; /* Заполнение жёлтым цветом */
-    border-color: yellow; /* Граница совпадает с цветом фона */
+    background-color: #DEA215; /* Заполнение жёлтым цветом */
+    border-color: #DEA215; /* Граница совпадает с цветом фона */
 }
 
 .answer-input:checked::after {
