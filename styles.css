@@ -1,8 +1,8 @@
 /* Общие стили для мобильных устройств */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0% 10% 0% 10%;
     background-image: url(sh-bg.jpg);
     background-size: contain;
     background-repeat: repeat-y;
@@ -39,8 +39,8 @@ margin-bottom: 10px;
 }
 
 .instructions-text01{
-    font-size: 1.6em;
-    font-weight: 500;
+    font-size: 1.8em;
+    font-weight: 600;
     text-align: center;
     color: #ffffff;
     margin-bottom: -10px;
@@ -93,24 +93,25 @@ margin-bottom: 10px;
 
 /* Вопросы */
 .questions-text {
-    font-size: 1em;
-    color: #4a2c2a;
+    font-size: 1.5em;
+    color: #ffffff;
     margin-bottom: 10px;
-    font-weight: 700;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
 }
 
 /* Коричневый блок вопроса */
 .question {
-    background-image: url('paper.svg'); /* Задаём фоновое изображение */
-    background-repeat: repeat-y; /* Дублирование по оси Y */
-    background-size: 100% auto; /* Изображение по ширине экрана, высота подстраивается автоматически */
-    background-position: top left; /* Выравнивание в верхнем левом углу */
     padding: 15px 15px 15px 10vw;
     border-radius: 8px;
     margin-bottom: 20px;
     color: #000000;
 }
-
+.question-title{
+    background-color:#ffffff;
+}
 /* Варианты ответов */
 .answers {
     margin-top: 10px;
@@ -129,7 +130,7 @@ margin-bottom: 10px;
     width: 20px;
     height: 20px;
     cursor: pointer;
-    accent-color: #b57f5a; /* Цвет галочки */
+    accent-color: #DEA215; /* Цвет галочки */
 }
 
 /* Лейблы для ответов */
@@ -138,8 +139,10 @@ margin-bottom: 10px;
     padding: 10px 10px 10px 0px;
     border: 2px solid transparent;
     background-color: transparent;
-    color: #4a2c2a;
-    font-size: 1em;
+    color: #ffffff;
+    font-family: "Georgia";
+    font-weight: 100;
+    font-size: 1.5em;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
