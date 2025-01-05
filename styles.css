@@ -63,7 +63,7 @@ margin-bottom: 10px;
     font-size: 6vw;
     color: #ffffff;
     text-align: left;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Roboto Serif', serif;
 }
 
 .subtitle {
@@ -117,7 +117,7 @@ margin-bottom: 10px;
     padding: 15px 3vw 15px 3vw;
     text-align: center;
     font-size: 1.5em;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Roboto Serif', serif;
     line-height: 1.5em;
 }
 /* Варианты ответов */
@@ -154,7 +154,7 @@ margin-bottom: 10px;
     border: 2px solid transparent;
     background-color: transparent;
     color: #ffffff;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Roboto Serif', serif;
     font-weight: 100;
     font-size: 1.5em;
     border-radius: 5px;
@@ -178,7 +178,7 @@ margin-bottom: 10px;
     color: #ffffff;
     font-size: 1.6em;
     line-height: 1.5em;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Roboto Serif', serif;
     font-weight: 100;
     flex-basis: 100%;
 }
