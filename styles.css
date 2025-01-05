@@ -10,7 +10,7 @@ body {
     background-position: center;
 }
 .s-img{
-width:30%;
+width:40%;
 float: right;
 margin-left: 70%;
 margin-bottom: 10px;
@@ -19,6 +19,7 @@ margin-bottom: 10px;
 .subtitle1{
     color:#ffffff;
     text-align: right;
+    font-weight: 500;
 }
 
 .subtitle2{
@@ -44,6 +45,7 @@ margin-bottom: 10px;
     text-align: center;
     color: #ffffff;
     margin-bottom: -10px;
+    font-weight: 500;
 }
 .convert{
     font-size: 1.2em; /* Размер шрифта */
@@ -58,7 +60,7 @@ margin-bottom: 10px;
 
 /* Заголовки */
 .title {
-    font-size: 1.8em;
+    font-size: 6vw;
     color: #ffffff;
     text-align: left;
     font-family: 'Cormorant Garamond', serif;
@@ -78,6 +80,7 @@ margin-bottom: 10px;
     margin-bottom: 15px;
     line-height: 1.5;
     text-align: center;
+    font-weight: 300;
 }
 
 
@@ -89,6 +92,7 @@ margin-bottom: 10px;
     text-align: center;
     margin-top:-10px;
     padding-bottom: 30px;
+    font-weight: 300;
 }
 
 /* Вопросы */
@@ -96,7 +100,7 @@ margin-bottom: 10px;
     font-size: 1.5em;
     color: #ffffff;
     margin-bottom: 10px;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 25px;
@@ -237,4 +241,15 @@ margin-bottom: 10px;
     font-size: 1em;
     color: #4a2c2a;
     line-height: 1.5;
+}
+
+.footer p {
+    /* margin-top: 30px; */
+    text-align: left;
+    font-size: 1em;
+    color: #ffffff;
+    line-height: 1.5;
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: center;
 }
