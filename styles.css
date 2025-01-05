@@ -126,9 +126,6 @@ margin-bottom: 10px;
     font-weight: 600;
 }
 
-.help-answer .answer-input {
-    accent-color: #BE0202;
-}
 
 .answer-container {
     display: flex;
@@ -167,16 +164,19 @@ margin-bottom: 10px;
 
 /* Ответ с прозрачным фоном и красной границей */
 .answer-result {
-    display: none; /* Скрыт по умолчанию */
+    display: none;
     margin-top: 5px;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 2px solid red;
+    background-color: rgb(0 0 0 / 33%);
+    /* border: 2px solid red; */
     border-radius: 5px;
-    color: #4a2c2a;
-    font-size: 0.9em;
-    line-height: 1.5;
-    flex-basis: 100%; /* Заставляет ответ занимать всю ширину */
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.6em;
+    line-height: 1.5em;
+    font-family: "Georgia";
+    font-weight: 100;
+    flex-basis: 100%;
 }
 
 /* Скрываем стандартный чекбокс */
@@ -193,6 +193,17 @@ margin-bottom: 10px;
     position: relative;
 }
 
+.help-answer .answer-input {
+   border: 5px solid #BE0202;
+    background-color: #BE0202;
+}
+
+/* Точка внутри чекбокса при выборе */
+.help-answer .answer-input:checked {
+    background-color: #000000; /* Заполнение жёлтым цветом */
+    border-color: #BE0202; /* Граница совпадает с цветом фона */
+}
+
 /* Точка внутри чекбокса при выборе */
 .answer-input:checked {
     background-color: #000000; /* Заполнение жёлтым цветом */
@@ -203,8 +214,10 @@ margin-bottom: 10px;
 
 /* Правильные ответы (зелёная граница и текст) */
 .correct-answer .answer-result {
-    border: 2px solid green; /* Зелёная граница */
-    color: green; /* Зелёный текст */
+    /* border: 2px solid green; */
+    color: #f9bb2a;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
 }
 
 /* Отображаем ответ, если чекбокс выбран */
@@ -212,10 +225,10 @@ margin-bottom: 10px;
     display: block;
 }
 
-/* Для правильных чекбоксов (зелёный цвет при выборе) */
+/* Для правильных чекбоксов (зелёный цвет при выборе)
 .correct-answer .answer-input {
-    accent-color: green; /* Зелёный цвет для правильного ответа */
-}
+    accent-color: green; 
+} */
 
 /* Подвал */
 .footer {
