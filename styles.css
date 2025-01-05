@@ -77,7 +77,7 @@ margin-bottom: 10px;
 
 /* Инструкции */
 .instructions-text1 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #ffffff;
     margin-bottom: 15px;
     line-height: 1.5;
@@ -87,7 +87,7 @@ margin-bottom: 10px;
 
 
 .instructions-text2 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #ffffff;
     margin-bottom: 15px;
     line-height: 1.5;
@@ -142,13 +142,7 @@ margin-bottom: 10px;
     flex-wrap: wrap; 
 }
 
-/* Чекбоксы */
-.answer-input {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    accent-color: #DEA215; /* Цвет галочки */
-}
+
 
 /* Лейблы для ответов */
 .answer-label {
@@ -191,8 +185,8 @@ margin-bottom: 10px;
     appearance: none; /* Отключает стандартный вид чекбокса */
     -webkit-appearance: none; /* Для Safari */
     -moz-appearance: none; /* Для Firefox */
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     border: 5px solid #DEA215;
     border-radius: 50%;
     background-color: #DEA215;
@@ -230,7 +224,7 @@ margin-bottom: 10px;
 /* Отображаем ответ, если чекбокс выбран */
 .answer-input:checked + .answer-label + .answer-result {
     display: block;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 /* Для правильных чекбоксов (зелёный цвет при выборе)
@@ -252,7 +246,7 @@ margin-bottom: 10px;
     text-align: left;
     color: #ffffff;
     line-height: 1.5;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 300;
     text-align: center;
 }
