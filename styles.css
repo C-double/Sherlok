@@ -11,13 +11,21 @@ body {
 }
 .s-img{
 width:30%;
+float: right;
+margin-left: 70%;
 }
+
+.subtitle1{
+    color:#ffffff;
+    text-align: right;
+}
+
 .container {
     padding: 20px;
 }
 
 .h1_boom {
-    color: #ad3b3b;
+    color: #BE0202;
 }
 
 .instructions-text01{
@@ -32,15 +40,16 @@ width:30%;
 }
 
 .help_text {
-    color: #ad3b3b;
+    color: #BE0202;
     font-weight: 700;
 }
 
 /* Заголовки */
 .title {
     font-size: 1.8em;
-    color: #4a2c2a;
-    text-align: center;
+    color: #ffffff;
+    text-align: left;
+    font-family: "Georgia";
 }
 
 .subtitle {
