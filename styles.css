@@ -104,17 +104,25 @@ margin-bottom: 10px;
 
 /* Коричневый блок вопроса */
 .question {
-    padding: 15px 15px 15px 10vw;
     border-radius: 8px;
     margin-bottom: 20px;
     color: #000000;
 }
 .question-title{
-    background-color:#ffffff;
+    background-color: #ffffff;
+    padding: 15px 3vw 15px 3vw;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Georgia";
+    line-height: 1.5em;
 }
 /* Варианты ответов */
 .answers {
-    margin-top: 10px;
+    padding: 15px 5vw 15px 5vw;
+}
+
+.help-answer{
+    
 }
 
 .answer-container {
