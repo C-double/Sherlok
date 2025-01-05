@@ -179,8 +179,37 @@ margin-bottom: 10px;
     flex-basis: 100%; /* Заставляет ответ занимать всю ширину */
 }
 
-input[type="checkbox" i]{
-    border-radius:50%;
+/* Скрываем стандартный чекбокс */
+.answer-input {
+    appearance: none; /* Отключает стандартный вид чекбокса */
+    -webkit-appearance: none; /* Для Safari */
+    -moz-appearance: none; /* Для Firefox */
+    width: 20px; /* Размер чекбокса */
+    height: 20px;
+    border: 2px solid yellow; /* Жёлтая обводка */
+    border-radius: 50%; /* Делает чекбокс круглым */
+    background-color: white; /* Фон чекбокса */
+    cursor: pointer;
+    position: relative;
+}
+
+/* Точка внутри чекбокса при выборе */
+.answer-input:checked {
+    background-color: yellow; /* Заполнение жёлтым цветом */
+    border-color: yellow; /* Граница совпадает с цветом фона */
+}
+
+.answer-input:checked::after {
+    content: ""; /* Добавляем точку */
+    display: block;
+    width: 10px; /* Размер точки */
+    height: 10px;
+    background-color: white; /* Цвет точки */
+    border-radius: 50%; /* Круглая точка */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
