@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Carollo Playscript";
+  src: url("Carollo Playscript Medium.otf");
+}
+
 /* Общие стили для мобильных устройств */
 body {
     font-family: "Roboto", sans-serif;
