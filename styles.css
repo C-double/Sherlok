@@ -1,6 +1,9 @@
 @font-face {
   font-family: "Carollo Playscript";
   src: url("Carollo_Playscript_Medium.otf");
+  
+  font-family: "Flow";
+  src: url("FlowBold.ttf");
 }
 
 /* Общие стили для мобильных устройств */
