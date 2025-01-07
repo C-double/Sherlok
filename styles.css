@@ -160,7 +160,7 @@ margin-bottom: 10px;
 /* Лейблы для ответов */
 .answer-label {
     flex: 1; /* Занимает оставшуюся ширину */
-    padding: 10px 10px 10px 0px;
+    padding: 6px 10px 6px 0px;
     border: 2px solid transparent;
     background-color: transparent;
     color: #ffffff;
