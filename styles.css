@@ -4,9 +4,9 @@ body {
     margin: 0;
     padding: 0% 10% 0% 10%;
     background-image: url(sh-bg.webp);
-    background-size: cover;
+    background-size: 102%;
     background-repeat: repeat-y;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     text-shadow: 2px 2px 7px #000000;
 }
