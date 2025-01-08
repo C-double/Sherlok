@@ -1,21 +1,24 @@
-// JavaScript для обработки чекбоксов
 document.addEventListener("DOMContentLoaded", () => {
-    // Находим все чекбоксы
-    const checkboxes = document.querySelectorAll(".answer-input");
+    // Находим все радио-кнопки
+    const radios = document.querySelectorAll(".answer-input");
 
-    checkboxes.forEach(checkbox => {
-        checkbox.addEventListener("change", () => {
-            // Убедиться, что другие чекбоксы сброшены, если это необходимо
-            if (checkbox.checked) {
-                const siblingCheckboxes = checkbox
-                    .closest(".answers")
-                    .querySelectorAll(".answer-input");
+    radios.forEach(radio => {
+        radio.addEventListener("change", () => {
+            // Определяем текущий вопрос
+            const question = radio.closest(".question");
 
-                siblingCheckboxes.forEach(sibling => {
-                    if (sibling !== checkbox) {
-                        sibling.checked = false; // Сбрасываем другие чекбоксы
-                    }
-                });
+            // Скрываем все ответы внутри текущего вопроса
+            const results = question.querySelectorAll(".answer-result");
+            results.forEach(result => {
+                result.style.display = "none"; // Скрываем текст результата
+            });
+
+            // Показываем ответ, связанный с выбранной радио-кнопкой
+            if (radio.checked) {
+                const result = radio.nextElementSibling.nextElementSibling;
+                if (result) {
+                    result.style.display = "block";
+                }
             }
         });
     });
